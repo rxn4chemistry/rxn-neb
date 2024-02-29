@@ -1,0 +1,149 @@
+[tool.poetry]
+name = "rxn-neb"
+version = "0.0.1"
+description = "NEB retrosynthesis."
+authors = ["RXN for Chemistry team <rxn4chemistry@zurich.ibm.com>"]
+readme = "README.md"
+packages = [{include = "rxn", from="src"}]
+include = ["rxn/neb/py.typed"]
+
+[tool.poetry_bumpversion.file."src/rxn/neb/__init__.py"]
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+anytree = "^2.12.1"
+click = "^8.1.7"
+loguru = "^0.7.2"
+pandas = "1.4.3"
+regex = "^2023.10.3"
+rxn-availability = "^3.0.0"
+rxn-chem-utils = {extras = ["rdkit"], version = "^1.5.0"}
+rxn-onmt-utils = "^1.1.0"
+rxn-utils = {extras = ["modeling"], version = "^2.0.0"}
+scikit-learn = "1.3.2"
+transformers = "4.21.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+ruff = "^0.1.3"
+
+[tool.poetry.scripts]
+run-neb-retrosynthesis = "rxn.neb.cli.core:main"
+generate-fingerprints = "rxn.neb.cli.data_processing:generate_fingerprints"
+generate-pca-compression-and-indices = "rxn.neb.cli.data_processing:generate_pca_compression_and_indices"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.mypy.overrides]]
+# module = [
+#     "tqdm.*",
+# ]
+ignore_missing_imports = true
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+
+# Same as Black.
+line-length = 150
+indent-width = 4
+
+target-version = "py38"
+
+[tool.ruff.lint]
+# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
+# Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
+# McCabe complexity (`C901`) by default.
+select = [
+    "E4", 
+    "E7", 
+    "E9", 
+    "F", 
+    "W291", 
+    "W292", 
+    "W505", 
+    "E721",
+    "I",
+    "N801",
+    "N802",
+    "N803",
+    "N804",
+    "N805",
+    "N806",
+    "N816",
+    # "D100",
+    # "D101",
+    "D102",
+    # "D103",
+    "D104",
+    "D105",
+    "D106",
+    "D107",
+    "D300",
+    "UP010",
+    "UP011",
+    "UP019",
+    "UP032"
+]
+ignore = []
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+
+# Set the line length limit used when formatting code snippets in
+# docstrings.
+#
+# This only has an effect when the `docstring-code-format` setting is
+# enabled.
+docstring-code-line-length = "dynamic"

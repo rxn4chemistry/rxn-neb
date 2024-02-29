@@ -1,0 +1,418 @@
+{
+  "synthesis-0": {
+    "rxns": [
+      "C=CCc1cc(C2=NNC(=O)CC2)ccc1O.ClCC1CO1.ClCCl.C1CCNCC1.[Na+]~[OH-]>>C=CCc1cc(C2=NNC(=O)CC2)ccc1OCC1CO1",
+      "C=CCOc1ccc(C2=NNC(=O)CC2)cc1.CN(C)c1ccccc1>>C=CCc1cc(C2=NNC(=O)CC2)ccc1O",
+      "O=C([O-])[O-]~[K+]~[K+].C=CCBr.CC(C)=O.O=C1CCC(c2ccc(O)cc2)=NN1>>C=CCOc1ccc(C2=NNC(=O)CC2)cc1"
+    ],
+    "rxnfp_ids": [
+      0,
+      26,
+      36
+    ],
+    "depths": [
+      0,
+      1,
+      2
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-1": {
+    "rxns": [
+      "CC(C)(C)N.CCOCC.Cc1ccc(C2=NNC(=O)CC2)cc1OCC1CO1>>Cc1ccc(C2=NNC(=O)CC2)cc1OCC(O)CNC(C)(C)C",
+      "ClCC1CO1.ClCCl.C1CCNCC1.Cc1ccc(C2=NNC(=O)CC2)cc1O.[Na+]~[OH-]>>Cc1ccc(C2=NNC(=O)CC2)cc1OCC1CO1",
+      "O.NN~O.Cc1ccc(C(=O)CCC(=O)O)cc1O>>Cc1ccc(C2=NNC(=O)CC2)cc1O"
+    ],
+    "rxnfp_ids": [
+      48,
+      1,
+      23
+    ],
+    "depths": [
+      0,
+      1,
+      2
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-2": {
+    "rxns": [
+      "Oc1ccc(Br)cc1N1CCOCC1.O=C([O-])[O-]~[K+]~[K+].ClCc1ccccc1.CC(C)=O.O>>Brc1ccc(OCc2ccccc2)c(N2CCOCC2)c1~Cl",
+      "OCCN(CCO)c1cc(Br)ccc1O.O=C([O-])[O-]~[Na+]~[Na+].O=S(=O)(O)O>>Oc1ccc(Br)cc1N1CCOCC1"
+    ],
+    "rxnfp_ids": [
+      19,
+      34
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-3": {
+    "rxns": [
+      "CCC(C)=O.BrCC1CO1.COC(=O)CCC(=O)c1cc(NC(C)=O)ccc1O>>COC(=O)CCC(=O)c1cc(NC(C)=O)ccc1OCC1CO1",
+      "ClC(Cl)Cl.CC(=O)Nc1ccc(O)c(C(=O)CCC(=O)O)c1.CO.Cl>>COC(=O)CCC(=O)c1cc(NC(C)=O)ccc1O",
+      "CC(=O)OC(C)=O.Nc1ccc(O)c(C(=O)CCC(=O)O)c1.[Na+]~[OH-]>>CC(=O)Nc1ccc(O)c(C(=O)CCC(=O)O)c1",
+      "O.O=C(O)CCC(=O)c1cc([N+](=O)[O-])ccc1O.[NH4+]~[OH-]>>Nc1ccc(O)c(C(=O)CCC(=O)O)c1"
+    ],
+    "rxnfp_ids": [
+      12,
+      2,
+      49,
+      38
+    ],
+    "depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-4": {
+    "rxns": [
+      "N#Cc1ccc(C(=O)CCC(=O)O)cc1[N+](=O)[O-].[NH4+]~[OH-]>>N#Cc1ccc(C(=O)CCC(=O)O)cc1N",
+      "Cl.O=N[O-]~[Na+].Nc1ccc(C(=O)CCC(=O)O)cc1[N+](=O)[O-].[C-]#N~[K+]>>N#Cc1ccc(C(=O)CCC(=O)O)cc1[N+](=O)[O-]"
+    ],
+    "rxnfp_ids": [
+      47,
+      35
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-5": {
+    "rxns": [
+      "Cl.O=N[O-]~[Na+].Nc1ccc(C(=O)CCC(=O)O)cc1OCc1ccccc1.[C-]#N~[K+]>>N#Cc1ccc(C(=O)CCC(=O)O)cc1OC(=O)c1ccccc1",
+      "O=C(O)CCC(=O)c1ccc([N+](=O)[O-])c(OCc2ccccc2)c1.[NH4+]~[OH-]>>Nc1ccc(C(=O)CCC(=O)O)cc1OCc1ccccc1"
+    ],
+    "rxnfp_ids": [
+      27,
+      30
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-6": {
+    "rxns": [
+      "O=c1[nH]cnc2cc3c(cc12)OCCO3.N.O=P(Cl)(Cl)Cl>>Clc1ncnc2cc3c(cc12)OCCO3",
+      "NC=O.COC(=O)c1cc2c(cc1N)OCCO2>>O=c1[nH]cnc2cc3c(cc12)OCCO3",
+      "CC(=O)O.COC(=O)c1cc2c(cc1[N+](=O)[O-])OCCO2.[Pd]>>COC(=O)c1cc2c(cc1N)OCCO2",
+      "CC(=O)O.COC(=O)c1ccc2c(c1)OCCO2.O=[N+]([O-])O>>COC(=O)c1cc2c(cc1[N+](=O)[O-])OCCO2",
+      "BrCCBr.CO.COC(=O)c1ccc(O)c(O)c1.C[O-]~[Na+]>>COC(=O)c1ccc2c(c1)OCCO2"
+    ],
+    "rxnfp_ids": [
+      10,
+      20,
+      37,
+      11,
+      31
+    ],
+    "depths": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-7": {
+    "rxns": [
+      "CCO.c1ccccc1.CCCCCC.CO.CCOC(=O)C1OC1c1ccc(OC)cc1.Cl.NCCC1=CCCc2ccccc21.O>>COc1ccc(CC2NCCC3=C2CCc2ccccc23)cc1",
+      "CCO.Cc1ccccc1.COc1ccc(C=O)cc1.CCOC(=O)CCl>>CCOC(=O)C1OC1c1ccc(OC)cc1",
+      "CC#N.[Li]CCCC.O=C1CCCc2ccccc21.c1ccccc1.CCCCCC.Cl.O.C1CCOC1>>NCCC1=CCCc2ccccc21"
+    ],
+    "rxnfp_ids": [
+      13,
+      50,
+      44
+    ],
+    "depths": [
+      0,
+      1,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-8": {
+    "rxns": [
+      "C[n+]1ccccc1CCc1ccccc1NC=O~[I-].C[n+]1ccccc1C=Cc1ccccc1[N+](=O)[O-]~[I-]>>CN1CCCCC1CCc1ccccc1NC=O",
+      "O=CNc1ccccc1CCc1ccccn1.CC(C)=O.CI.[I-]~c1cc[nH+]cc1>>C[n+]1ccccc1CCc1ccccc1NC=O~[I-]",
+      "O=CO.CC(=O)OC(C)=O.Nc1ccccc1CCc1ccccn1>>O=CNc1ccccc1CCc1ccccn1",
+      "CCO.O=[N+]([O-])c1ccccc1C=Cc1ccccn1.[Pd]>>Nc1ccccc1CCc1ccccn1"
+    ],
+    "rxnfp_ids": [
+      6,
+      7,
+      43,
+      40
+    ],
+    "depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-9": {
+    "rxns": [
+      "COc1ccc(NC=O)c(CCc2cccc[n+]2C)c1~[I-].C[n+]1ccccc1C=Cc1ccccc1[N+](=O)[O-]~[I-]>>COc1ccc(NC=O)c(CCC2CCCCN2C)c1",
+      "COc1ccc(NC=O)c(CCc2ccccn2)c1.O=CNc1ccccc1CCc1ccccn1.CI.[I-]~c1cc[nH+]cc1>>COc1ccc(NC=O)c(CCc2cccc[n+]2C)c1~[I-]",
+      "O=CO.CC(=O)OC(C)=O.Nc1ccccc1CCc1ccccn1>>O=CNc1ccccc1CCc1ccccn1",
+      "CCO.O=[N+]([O-])c1ccccc1C=Cc1ccccn1.[Pd]>>Nc1ccccc1CCc1ccccn1"
+    ],
+    "rxnfp_ids": [
+      28,
+      4,
+      43,
+      40
+    ],
+    "depths": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-10": {
+    "rxns": [
+      "Cc1cc2c([N+](=O)[O-])cccc2cn1.Cc1cc2c([N+](=O)[O-])cccc2cn1~Cl.O=[N+]([O-])c1ccc(Cl)c2ccncc12.I>>I~O=[N+]([O-])c1ccc(Cl)c2ccncc12",
+      "Cc1cc2c([N+](=O)[O-])cccc2cn1.Cl>>Cc1cc2c([N+](=O)[O-])cccc2cn1~Cl"
+    ],
+    "rxnfp_ids": [
+      25,
+      41
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-11": {
+    "rxns": [
+      "BrBr.ClCCl.CC(C)(C)NNC(C)(C#N)C1CC1.O>>CC(C)(C)N=NC(C)(C#N)C1CC1",
+      "C#N.CC(=NNC(C)(C)C)C1CC1>>CC(C)(C)NNC(C)(C#N)C1CC1"
+    ],
+    "rxnfp_ids": [
+      14,
+      5
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-12": {
+    "rxns": [
+      "CN1c2ccccc2CC(=O)c2cc(Br)ccc21.CCN(CC)CC.CCO.CCOC([O-])[O-].Cc1ccc(S(=O)(=O)O)cc1>>CCOC1=Cc2ccccc2N(C)c2ccc(Br)cc21",
+      "O=C1CCC(=O)N1Br.CN(C)C=O.CN1c2ccccc2CC(=O)c2ccccc21>>CN1c2ccccc2CC(=O)c2cc(Br)ccc21"
+    ],
+    "rxnfp_ids": [
+      21,
+      39
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-13": {
+    "rxns": [
+      "CCOC(C)=O.CCSc1ccc2c(c1)C(CC(=O)O)=Cc1ccccc1N2C.C(=NC1CCCCC1)=NC1CCCCC1.O=[N+]([O-])c1ccc(O)cc1>>CCSc1ccc2c(c1C)C(C(=O)Oc1ccc([N+](=O)[O-])cc1)=Cc1ccccc1N2C",
+      "CCO.CCOC(=O)C=C1Cc2ccccc2N(C)c2ccc(SCC)cc21.Cl.[K+]~[OH-]>>CCSc1ccc2c(c1)C(CC(=O)O)=Cc1ccccc1N2C",
+      "CCO.CCOC(=O)CC1(O)Cc2ccccc2N(C)c2ccc(SCC)cc21.Cl>>CCOC(=O)C=C1Cc2ccccc2N(C)c2ccc(SCC)cc21"
+    ],
+    "rxnfp_ids": [
+      51,
+      16,
+      17
+    ],
+    "depths": [
+      0,
+      1,
+      2
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-14": {
+    "rxns": [
+      "CCOC(C)=O.CCSc1ccc2c(c1)C(CC(=O)N(C)C)=Cc1ccccc1N2C.C1CCOC1.[Al+3]~[H-]~[H-]~[H-]~[H-]~[Li+].[Na+]~[OH-]>>CCSc1ccc2c(c1)C(CCN(C)C)=Cc1ccccc1N2C",
+      "ClC(Cl)Cl.CCSc1ccc2c(c1)C(CC(=O)Oc1ccc([N+](=O)[O-])cc1)=Cc1ccccc1N2C.CNC.O>>CCSc1ccc2c(c1)C(CC(=O)N(C)C)=Cc1ccccc1N2C"
+    ],
+    "rxnfp_ids": [
+      8,
+      22
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-15": {
+    "rxns": [
+      "O=C(O)/C=C\\C(=O)O.O=C(CO)OC(CC1CCCCN1)c1ccc2sc3ccccc3c2c1.O=C(CC1CCCN1)c1ccc2c(c1)Cc1ccccc1-2.O=C(CC1CCCCN1)c1ccc2ccc3ccccc3c2c1>>OC(CC1CCCN1)c1ccc2c(c1)Cc1ccccc1-2",
+      "CC(=O)c1ccc2c(c1)Cc1ccccc1-2.CC(=O)c1ccc2oc3ccccc3c2c1.C1=NCCC1.C1=NCCCC1>>O=C(CC1CCCN1)c1ccc2c(c1)Cc1ccccc1-2"
+    ],
+    "rxnfp_ids": [
+      9,
+      46
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-16": {
+    "rxns": [
+      "C=O.C=CC(C(N)=S)c1cccc(C)n1.C1COCCN1>>C=CC(C(=S)NCN1CCOCC1)c1cccc(C)n1",
+      "C=CC(C#N)c1cccc(C)n1.C=CC(O)c1cccc(C)n1.C=CC(Cl)c1cccc(C)n1.S.O=S(Cl)Cl.[C-]#N~[Na+]>>C=CC(C(N)=S)c1cccc(C)n1"
+    ],
+    "rxnfp_ids": [
+      15,
+      3
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-17": {
+    "rxns": [
+      "Cc1cc2c(cc1Cl)c(-c1ccccc1)o[n+]2C(C)(C)C~F[B-](F)(F)F.C1COCCN1>>Cc1cc2c(cc1Cl)C(c1ccccc1)(N1CCOCC1)ON2C(C)(C)C",
+      "CC(C)(C)O.CCOCC.Cc1cc2noc(-c3ccccc3)c2cc1Cl.F[B-](F)(F)F~[H+].C[N+](=O)[O-]>>Cc1cc2c(cc1Cl)c(-c1ccccc1)o[n+]2C(C)(C)C~F[B-](F)(F)F"
+    ],
+    "rxnfp_ids": [
+      42,
+      29
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-18": {
+    "rxns": [
+      "Cc1ccc2c(c1)Cc1cc(C)ccc1OC(C(=O)O)O2.CO.O=S(=O)(O)O>>COC(=O)C1Oc2ccc(C)cc2Cc2cc(C)ccc2O1",
+      "O=C([O-])[O-]~[K+]~[K+].Cc1ccc(O)c(Cc2cc(C)ccc2O)c1.CC(C)O.O=C(O)C(Cl)Cl>>Cc1ccc2c(c1)Cc1cc(C)ccc1OC(C(=O)O)O2"
+    ],
+    "rxnfp_ids": [
+      32,
+      33
+    ],
+    "depths": [
+      0,
+      1
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown"
+    ]
+  },
+  "synthesis-19": {
+    "rxns": [
+      "CC(C)N.CO.COC(=O)CCC(=O)c1ccccc1OCC1CO1>>COC(=O)CCC(=O)c1ccccc1OCC(O)CNC(C)C",
+      "O=C([O-])[O-]~[K+]~[K+].BrCC1CO1.CCC(C)=O.COC(=O)CCC(=O)c1ccccc1O>>COC(=O)CCC(=O)c1ccccc1OCC1CO1",
+      "CO.Cl.O=C(O)CCC(=O)c1ccccc1O>>COC(=O)CCC(=O)c1ccccc1O"
+    ],
+    "rxnfp_ids": [
+      24,
+      45,
+      18
+    ],
+    "depths": [
+      0,
+      1,
+      2
+    ],
+    "rxn_classes": [
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ]
+  }
+}
